@@ -22,11 +22,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                          &kp N6                  &kp N7                   &kp N8            &kp N9             &kp N0    &kp EQUAL
-&kp TAB         &kp Q   &kp W   &kp E         &kp R         &kp T                           &mt LEFT_PARENTHESIS Y  &mt RIGHT_PARENTHESIS U  &mt LEFT_BRACE I  &mt RIGHT_BRACE O  &kp P     &kp MINUS
+&kp ESC         &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                          &kp N6                  &kp N7                   &kp N8            &kp N9             &kp N0    &kp BACKSPACE
+&kp TAB         &kp Q   &kp W   &kp E         &kp R         &kp T                           &mt LEFT_PARENTHESIS Y  &mt RIGHT_PARENTHESIS U  &mt LEFT_BRACE I  &mt RIGHT_BRACE O  &kp P     &kp GRAVE
 &kp LCTRL       &kp A   &kp S   &kp D         &kp F         &kp G                           &mt LEFT_BRACKET H      &mt RIGHT_BRACKET J      &kp K             &kp L              &kp SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X   &kp C         &kp V         &kp B   &kp LBKT     &kp RBKT   &kp N                   &kp M                    &kp COMMA         &kp DOT            &kp FSLH  &kp BACKSLASH
-                                &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER  &kp BACKSPACE           &mo 2                    &kp GRAVE
+                                &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER  &kp BACKSPACE           &kp EQUAL                &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
